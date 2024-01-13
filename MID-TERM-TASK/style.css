@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.background-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+ filter: brightness(40%);
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(44, 43, 43, 0.3);
+    position: fixed;
+    color: white;
+    padding: 1% 10%;
+}
+.navbar {
+    background: transparent;
+    z-index: 2;
+}
+.navbar h1{
+    font-size: 30px;
+}
+.navbar nav {
+    text-align: right;
+
+}
+
+.navbar nav li {
+    display: inline-block;
+    padding-right:0% 10px;
+    list-style: none;
+}
+
+.navbar nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 15px;
+}
+.navbar li a:hover{
+    color: black;
+}
+.drop{
+    padding: 3%;
+    box-shadow: none;
+    border:none;
+    color: white;
+    font-size: larger;
+    background-color:rgba(124, 124, 124, 0.6);
+}
+.drop:hover{
+    color: black;
+}
+.text {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    color:white;
+    font-size: x-large;
+}
+
+.text h3 {
+    margin-left: 180px;
+    border: white;
+    padding: 10px;
+    background-color: lightgrey;
+    width: 267px;
+    border-radius: 30px;
+}
+
+.text h4 {
+    padding: 5px;
+}
+
+.button {
+    padding: 20px;
+}
+.button button:hover{
+    color: white;
+    background-color: rgb(194, 25, 82);
+}
+
+button {
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    border: white;
+    padding: 5px;
+    width: 140px;
+   
+    
+}
+
+.work {
+    padding: 40px;
+    text-align: center;
+
+}
+
+.work button {
+    color: rgb(200, 89, 126);
+    font-weight: bold;
+    background-color: rgb(242, 228, 229);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 110px;
+    border: white;
+}
+.work button:hover{
+    color: white;
+    background-color: rgb(194, 25, 82);
+}
+
+.work h1 span {
+    color: rgb(230, 87, 135);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.work h3 {
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.boxes h4 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.boxes p {
+    text-align: center;
+}
+
+.portfolio {
+    padding: 40px;
+    text-align: center;
+
+}
+
+.portfolio button {
+    color: rgb(200, 89, 126);
+    font-weight: bold;
+    background-color: rgb(242, 228, 229);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 110px;
+    border: white;
+}
+.portfolio button:hover{
+    color: white;
+    background-color: rgb(194, 25, 82);
+}
+.portfolio h1 span {
+    color: rgb(230, 87, 135);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.portfolio h3 {
+    padding: 10px;
+}
+
+.option {
+    text-align: center;
+}
+
+.option button {
+    width: 50px;
+    margin: 5px;
+    background-color: lightgrey;
+}
+
+.option button:hover {
+    background-color: rgb(213, 105, 141);
+    color: white;
+}
+
+.pics {
+    display: flex;
+    padding: 5px;
+}
+
+.pics img {
+    justify-content: center;
+    max-width: 30%;
+    max-height: 30%;
+    margin: 20px;
+    margin-right: 30px;
+    border: 2px solid white;
+}
+
+.team {
+    padding: 40px;
+    text-align: center;
+
+}
+
+.team button {
+    color: rgb(200, 89, 126);
+    font-weight: bold;
+    background-color: rgb(242, 228, 229);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 110px;
+    border: white;
+}
+.team button:hover{
+    color: white;
+    background-color: rgb(194, 25, 82);
+}
+.team h1 span {
+    color: rgb(230, 87, 135);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.team h3 {
+    padding: 10px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blocks {
+    max-width: 23%;
+    max-height: 10%;
+    border: 2px solid white;
+    border-radius: 8px ;
+    background-color: white;
+}
+
+.blocks img {
+   border-radius: 8px;
+    width: 100%;
+}
+.blocks h3{
+text-align: center;
+padding: 10px;
+}
+.blocks p{
+    text-align: center;
+    opacity: 0.4;
+}
+.contact {
+    padding: 40px;
+    text-align: center;
+
+}
+
+.contact button {
+    color: rgb(200, 89, 126);
+    font-weight: bold;
+    background-color: rgb(242, 228, 229);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 110px;
+    border: white;
+}
+.contact button:hover{
+    color: white;
+    background-color: rgb(194, 25, 82);
+}
+.contact h1 span {
+    color: rgb(230, 87, 135);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.contact h3 {
+    padding: 10px;
+}
+.contactus {
+
+    height: 300px;
+    width: 80%;
+    margin-left: 130px;
+    background-color: rgb(177, 177, 177);
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 370px;
+    width: 80%;
+    margin-left: 130px;
+
+}
+.details {
+    height: 370px;
+    width: 30%;
+}
+.location {
+    display: inline-flex;
+    padding: 25px 10px;
+}
+
+.location h3 {
+    font-size: 20px;
+}
+
+.location p {
+    font-size: 15px;
+}
+form {
+    padding: 25px 0px;
+    height: 370px;
+    width: 69.5%;
+}
+
+#nm,
+#em {
+    height: 40px;
+    width: 49.5%;
+    padding: 0px 20px;
+    border:1px solid rgb(173, 171, 171);
+}
+
+#sb{
+    padding: 0px 20px;
+    border:1px solid rgb(173, 171, 171);
+    height: 40px;
+    width: 100%;
+}
+#msg {
+    padding: 0px 20px;
+    border:1px solid rgb(173, 171, 171);
+
+    width: 100%;
+}
+.form button{
+    margin-left:70%;
+    background-color: rgb(194, 25, 82);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius:30px ;
+    padding: 10px;
+}
+.form button:hover{
+    background-color:pink;
+    color: rgb(200, 89, 126); ;
+}
